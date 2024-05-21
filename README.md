@@ -1,3 +1,11 @@
+---
+title: "Danny's Movie recs"
+emoji: "😆"
+sdk: "docker"
+app_file: "./chainlit_week2/app.py"
+pinned: true
+---
+
 # Setup AI/LLM for Devs experiments locally
 
 This repository contains the necessary setup instructions and environment configurations to run AI/LLM experiments locally.
