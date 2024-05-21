@@ -1,5 +1,4 @@
 import os
-from dotenv import load_dotenv
 from langchain_openai import OpenAIEmbeddings
 from langchain.document_loaders.csv_loader import CSVLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -15,7 +14,6 @@ from langchain.prompts.chat import ChatPromptTemplate
 class MovieRecommender:
     def __init__(self):
         # Load the environment variables from the .env file
-        load_dotenv()
         openai_api_key = os.getenv("OPENAI_API_KEY")
         os.environ["OPENAI_API_KEY"] = openai_api_key
 

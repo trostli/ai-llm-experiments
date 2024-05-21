@@ -7,5 +7,5 @@ WORKDIR /chainlit_week2
 COPY --chown=user . $HOME/app
 COPY . /
 RUN pip install -r requirements.txt
-RUN pip install dotenv
+RUN pip install chainlit==1.1.101
 CMD ["chainlit", "run", "app.py", "--port", "7860"]
