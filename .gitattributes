@@ -1,0 +1,2 @@
+*.csv filter=lfs diff=lfs merge=lfs -text
+chainlit_week2/imdb_movies.csv filter=lfs diff=lfs merge=lfs -text
